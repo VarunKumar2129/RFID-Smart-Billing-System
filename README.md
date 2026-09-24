@@ -163,7 +163,7 @@ Communication Sequence:
 Embedded Systems Engineer
 
 GitHub:
-https://github.com/Praveen-2808
+https://github.com/VarunKumar2129/RFID-Smart-Billing-System.git
 
 ---
 
