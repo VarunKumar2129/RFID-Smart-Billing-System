@@ -1,4 +1,4 @@
-<img width="1672" height="941" alt="heading_2" src="https://github.com/user-attachments/assets/429146f4-d4e9-4ae9-aeb2-c1dd6c42141f" />
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/327a472c-a984-4489-a9fd-d6017bf5a423" />
 
 ## Overview
 
@@ -33,7 +33,8 @@ This project demonstrates practical implementation of embedded firmware, serial 
 ---
 
 ## System Architecture
-<img width="1536" height="1024" alt="block_1" src="https://github.com/user-attachments/assets/7c951a94-7e24-4ce1-b98f-47d1c735ea3c" />
+<img width="1024" height="682" alt="image" src="https://github.com/user-attachments/assets/83c61535-74f4-46db-93e7-d32310ca26f2" />
+
 
 The RFID reader scans the product tag and sends the Tag ID to the LPC2148. The microcontroller processes the request, communicates with the Linux database using UART, receives the product information, displays it on the LCD, and updates the billing data.
 
@@ -41,10 +42,12 @@ The RFID reader scans the product tag and sends the Tag ID to the LPC2148. The m
 
 ## Project Workflow
 
-<img width="1024" height="1000" alt="workflow_1" src="https://github.com/user-attachments/assets/cfcecae6-1bf1-4283-892c-f9dce4ea2235" />
+<img width="682" height="1024" alt="image" src="https://github.com/user-attachments/assets/e3718de2-64af-4668-8cd0-05e12c4acf7c" />
+
 
 ### Workflow
-<img width="1024" height="1100" alt="flow_visual" src="https://github.com/user-attachments/assets/b4d63c4e-21fd-400c-bb95-af54e7f7fc53" />
+<img width="682" height="1024" alt="image" src="https://github.com/user-attachments/assets/a0239769-0019-472e-8330-5be8b9302feb" />
+
 
 1. Scan RFID Tag
 2. Read Tag ID
@@ -94,7 +97,8 @@ Communication Sequence:
 - Linux PC
 - Power Supply
   
-  <img width="1200" height="900" alt="rfid_cards_1" src="https://github.com/user-attachments/assets/6c2e8d8a-ebf2-4847-9365-532d56a4bbfd" />
+  <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/757cd883-c5b2-4013-971b-c8655e0a9300" />
+
 
 ---
 
@@ -123,7 +127,8 @@ Communication Sequence:
 3. Start the database program.
 4. Scan RFID tags.
 5. View billing information.
-<img width="1600" height="575" alt="image" src="https://github.com/user-attachments/assets/8b02988b-8a09-468f-8717-2f7670b9cbc6" />
+<img width="1024" height="368" alt="image" src="https://github.com/user-attachments/assets/1c357a7b-2af8-48dc-8f83-bb5a54832b10" />
+
 
 
 ---
