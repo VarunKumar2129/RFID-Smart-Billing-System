@@ -1,0 +1,167 @@
+<img width="1672" height="941" alt="heading_2" src="https://github.com/user-attachments/assets/429146f4-d4e9-4ae9-aeb2-c1dd6c42141f" />
+
+## Overview
+
+The RFID Smart Billing System is an embedded systems project developed using the LPC2148 (ARM7) microcontroller. The system automates product billing by identifying RFID-tagged products, displaying product information on an LCD, communicating with a Linux PC over UART, retrieving product information from a database, and generating the final bill.
+
+This project demonstrates practical implementation of embedded firmware, serial communication, hardware interfacing, and Linux integration.
+
+---
+
+## Features
+
+- RFID-based product identification
+- Automatic billing process
+- LCD display for product details
+- UART communication with Linux PC
+- Linux-based product database
+- Real-time bill generation
+- Faster and error-free billing
+
+---
+
+## Technologies Used
+
+| Hardware | Software |
+|----------|----------|
+| LPC2148 (ARM7) | Embedded C |
+| RFID Reader | Linux |
+| 16x2 LCD | GCC |
+| UART | Serial Communication |
+| Power Supply | Makefile |
+
+---
+
+## System Architecture
+<img width="1536" height="1024" alt="block_1" src="https://github.com/user-attachments/assets/7c951a94-7e24-4ce1-b98f-47d1c735ea3c" />
+
+The RFID reader scans the product tag and sends the Tag ID to the LPC2148. The microcontroller processes the request, communicates with the Linux database using UART, receives the product information, displays it on the LCD, and updates the billing data.
+
+---
+
+## Project Workflow
+
+<img width="1024" height="1000" alt="workflow_1" src="https://github.com/user-attachments/assets/cfcecae6-1bf1-4283-892c-f9dce4ea2235" />
+
+### Workflow
+<img width="1024" height="1100" alt="flow_visual" src="https://github.com/user-attachments/assets/b4d63c4e-21fd-400c-bb95-af54e7f7fc53" />
+
+1. Scan RFID Tag
+2. Read Tag ID
+3. Identify Product
+4. Display Product Details
+5. Update Linux Database
+6. Generate Bill
+
+---
+
+## Hardware 
+
+<img width="1448" height="1086" alt="controller" src="https://github.com/user-attachments/assets/301e5a38-9ce0-4d22-beef-b52df84ebdb5" />
+
+### Hardware Components
+
+- LPC2148 ARM7 Microcontroller
+- RFID Reader
+- 16×2 LCD Display
+- Linux PC
+- UART Interface
+- 5V Power Supply
+
+---
+
+## UART Communication
+
+The LPC2148 exchanges product information with the Linux PC through UART communication.
+
+Communication Sequence:
+
+- RFID Tag Scanned
+- LPC2148 reads Tag ID
+- Tag ID sent to Linux
+- Linux searches database
+- Product details returned
+- LCD updated
+- Bill generated
+
+## Hardware Required
+
+- LPC2148 Development Board
+- RFID Reader Module
+- RFID Tags
+- 16×2 LCD Display
+- USB-UART Converter
+- Linux PC
+- Power Supply
+  
+  <img width="1200" height="900" alt="rfid_cards_1" src="https://github.com/user-attachments/assets/6c2e8d8a-ebf2-4847-9365-532d56a4bbfd" />
+
+---
+
+## Software Required
+
+- Keil uVision
+- Flash Magic
+- Ubuntu/Linux
+- GCC Compiler
+- Terminal Software (Minicom / GTKTerm)
+
+---
+
+## How to Run
+
+### Embedded Side
+
+1. Open the project in Keil.
+2. Build the project.
+3. Generate the HEX file.
+4. Flash the LPC2148 using Flash Magic.
+
+### Linux Side
+1. Connect the UART cable.
+2. Compile the Linux application.
+3. Start the database program.
+4. Scan RFID tags.
+5. View billing information.
+<img width="1600" height="575" alt="image" src="https://github.com/user-attachments/assets/8b02988b-8a09-468f-8717-2f7670b9cbc6" />
+
+
+---
+
+## Applications
+
+- Smart Retail Stores
+- Supermarkets
+- Library Management
+- Inventory Management
+- Warehouse Automation
+- Cashless Billing Systems
+---
+
+## Future Enhancements
+
+- Barcode Scanner Support
+- QR Code Billing
+- Wi-Fi Connectivity
+- Cloud Database
+- Mobile Application
+- Online Payment Integration
+- Receipt Printing
+- IoT Dashboard
+
+---
+
+## Author
+
+**KURVA VARUN KUMAR**
+
+Embedded Systems Engineer
+
+GitHub:
+https://github.com/Praveen-2808
+
+---
+
+## License
+
+This project is intended for educational and learning purposes.
